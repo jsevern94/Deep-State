@@ -23,9 +23,9 @@ class Navbar extends PureComponent {
                 </div>
                 </a>
                 <div className="navbar-item">|</div>
-                <a href="#contact" className="navbar-item">
+                <a href="#booking" className="navbar-item">
                     <div>
-                        Contact
+                        Booking
                 </div>
                 </a>
                 <div className="navbar-item">|</div>

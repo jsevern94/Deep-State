@@ -6,8 +6,8 @@ import Arrow from './Arrow';
 import Navbar from './Navbar';
 import Listen from './Listen';
 import Events from './Events';
+import Booking from './Booking';
 import Merch from './Merch';
-import Contact from './Contact';
 import About from './About';
 import Footer from './Footer';
 
@@ -35,7 +35,7 @@ class App extends Component {
         <Listen />
         <Events />
         <Merch />
-        <Contact />
+        <Booking />
         <About />
         <Footer />
       </div>

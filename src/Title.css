@@ -14,6 +14,7 @@
     margin-bottom: 13px;
     font-size: 85px;
     font-family: 'Sarpanch', sans-serif;
+    opacity: 0;
 }
 
 .opener-item1 {
@@ -45,8 +46,8 @@
 
 .proof {
     font-size: 25px;
-    -webkit-animation: shoot-across 20s linear infinite 2s both;
-            animation: shoot-across 20s linear infinite 2s both;
+    -webkit-animation: shoot-across 10s linear infinite 2s both;
+            animation: shoot-across 10s linear infinite 2s both;
 }
 
 .animation1 {
@@ -436,7 +437,7 @@
                 transform: translateX(-1000px);
         opacity: 1;
       }
-      80% {
+      40% {
         -webkit-transform: translateX(-900px);
                 transform: translateX(-900px);
         opacity: 1;
@@ -454,7 +455,7 @@
                 transform: translateX(-1000px);
         opacity: 1;
       }
-      80% {
+      40% {
         -webkit-transform: translateX(-900px);
                 transform: translateX(-900px);
         opacity: 1;
