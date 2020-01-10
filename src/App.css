@@ -9,4 +9,5 @@ html{
   color: #189443;
   font-family: 'Orbitron', sans-serif;
   text-shadow: 2px 2px 6px #000;
+  overflow-x: hidden;
 }

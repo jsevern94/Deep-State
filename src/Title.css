@@ -43,9 +43,10 @@
     text-align: center;
 }
 
-.emoji {
-    font-size: 178px;
-    text-overflow: clip;
+.proof {
+    font-size: 25px;
+    -webkit-animation: shoot-across 20s linear infinite 2s both;
+            animation: shoot-across 20s linear infinite 2s both;
 }
 
 .animation1 {
@@ -427,4 +428,40 @@
     100% {
       opacity: 1;
     }
+}
+
+@-webkit-keyframes shoot-across {
+    0% {
+        -webkit-transform: translateX(-1000px);
+                transform: translateX(-1000px);
+        opacity: 1;
+      }
+      80% {
+        -webkit-transform: translateX(-900px);
+                transform: translateX(-900px);
+        opacity: 1;
+      }
+      100% {
+        -webkit-transform: translateX(2000px);
+                transform: translateX(2000px);
+        opacity: 1;
+      }
+}
+
+@keyframes shoot-across {
+    0% {
+        -webkit-transform: translateX(-1000px);
+                transform: translateX(-1000px);
+        opacity: 1;
+      }
+      80% {
+        -webkit-transform: translateX(-900px);
+                transform: translateX(-900px);
+        opacity: 1;
+      }
+      100% {
+        -webkit-transform: translateX(2000px);
+                transform: translateX(2000px);
+        opacity: 1;
+      }
 }

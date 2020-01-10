@@ -20,6 +20,7 @@ function Title() {
                 <p className="animation7">e</p>
                 <p className="animation10">.</p>
             </div>
+            <div className="proof">Proof the deepstate exists</div>
         </div>
     );
 }
