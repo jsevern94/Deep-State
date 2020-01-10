@@ -1,0 +1,12 @@
+.listen-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+.listen-title {
+    padding-top: 60px;
+    font-size: 45px;
+}

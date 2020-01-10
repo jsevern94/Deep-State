@@ -1,0 +1,12 @@
+.about-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+.about-title {
+    padding-top: 60px;
+    font-size: 45px;
+}

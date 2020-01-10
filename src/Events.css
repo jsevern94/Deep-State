@@ -1,0 +1,12 @@
+.events-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+.events-title {
+    padding-top: 60px;
+    font-size: 45px;
+}

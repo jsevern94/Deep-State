@@ -1,0 +1,26 @@
+.box {
+    position: relative;
+    top: -140px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.arrow {
+    display: flex;
+    margin: auto;
+    margin-bottom: 200px;
+    height: 100px;
+    width: 100px;
+    fill: currentColor;
+    color: #189443;
+    text-shadow: 2px 2px 6px #000;
+    -webkit-animation: bob 5s ease-in-out infinite 6.8s both;
+            animation: bob 5s ease-in-out infinite 6.8s both;
+}
+
+.delayed-fade {
+    -webkit-animation: flicker-in-1 2s linear 4.5s both;
+            animation: flicker-in-1 2s linear 4.5s both;
+}

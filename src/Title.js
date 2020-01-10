@@ -1,20 +1,28 @@
 import React from 'react';
+import './Title.css';
 
-function App() {
+function Title() {
     return (
-        <div className="title">
-            <p className="slide4">d</p>
-            <p className="slide6">e</p>
-            <p className="slide1">e</p>
-            <p className="slide2">p</p>
-            <p className="slide9">s</p>
-            <p className="slide5">t</p>
-            <p className="slide3">a</p>
-            <p className="slide8">t</p>
-            <p className="slide7">e</p>
-            <p className="slide10">.</p>
+        <div className="banner">
+            <div className="opener">
+                <div className="opener-item1">Welcome</div>
+                <div className="opener-item2">to</div>
+            </div>
+            <div className="title">
+                <p className="animation4">d</p>
+                <p className="animation6">e</p>
+                <p className="animation1">e</p>
+                <p className="animation2">p</p>
+                <p className="animation9">s</p>
+                <p className="animation5">t</p>
+                <p className="animation3">a</p>
+                <p className="animation8">t</p>
+                <p className="animation7">e</p>
+                <p className="animation10">.</p>
+            </div>
+            <div className="tagline">The government is your friend</div>
         </div>
     );
 }
 
-export default App;
+export default Title;
