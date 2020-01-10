@@ -1,32 +1,31 @@
 .banner {
     width: 100vw;
-    padding-top: 20px;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .opener {
     pointer-events: none;
-    width: 37vw;
+    width: 40vw;
     margin: auto;
     display: flex;
     margin-top: 0;
     margin-bottom: 13px;
-    font-size: 70px;
+    font-size: 85px;
+    font-family: 'Sarpanch', sans-serif;
 }
 
 .opener-item1 {
     margin: auto;
-	-webkit-animation: slide-in-blurred-top 0.8s ease-in both;
-	        animation: slide-in-blurred-top 0.8s ease-in both;
+    -webkit-animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .opener-item2 {
     margin: auto;
-	-webkit-animation: slide-in-blurred-top 0.8s ease-in 0.3s both;
-	        animation: slide-in-blurred-top 0.8s ease-in 0.3s both;
+    -webkit-animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) .3s both;
+            animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) .3s both;
 }
   
 .title {
@@ -39,21 +38,16 @@
     font-size: 120px;
 }
 
-.tagline {
-    pointer-events: none;
-    margin: auto;
-    margin-top: 0;
-    display: flex;
-    font-size: 35px;
-    -webkit-animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
-            animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
-}
-
 .title p{
     margin: 0 auto;
     text-align: center;
 }
-  
+
+.emoji {
+    font-size: 178px;
+    text-overflow: clip;
+}
+
 .animation1 {
       -webkit-animation: flicker-in-1 2s linear 0.4s both;
               animation: flicker-in-1 2s linear 0.4s both;

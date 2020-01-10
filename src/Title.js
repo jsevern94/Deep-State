@@ -20,7 +20,6 @@ function Title() {
                 <p className="animation7">e</p>
                 <p className="animation10">.</p>
             </div>
-            <div className="tagline">The government is your friend</div>
         </div>
     );
 }

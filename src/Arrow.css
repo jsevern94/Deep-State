@@ -16,11 +16,22 @@
     fill: currentColor;
     color: #189443;
     text-shadow: 2px 2px 6px #000;
+    z-index: 10;
     -webkit-animation: bob 5s ease-in-out infinite 6.8s both;
             animation: bob 5s ease-in-out infinite 6.8s both;
 }
 
 .delayed-fade {
-    -webkit-animation: flicker-in-1 2s linear 4.5s both;
-            animation: flicker-in-1 2s linear 4.5s both;
+    z-index: 10;
+    -webkit-animation: flicker-in-1 2s linear 3.5s both;
+            animation: flicker-in-1 2s linear 3.5s both;
+}
+
+.tagline {
+    pointer-events: none;
+    margin: auto;
+    margin-top: 0;
+    display: flex;
+    font-size: 100px;
+    font-family: 'Geo', sans-serif;
 }
