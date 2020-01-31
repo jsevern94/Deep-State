@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import './Listen.css';
+import MusicPlayer from "./MusicPlayer";
 
 class Listen extends PureComponent {
     state = {
@@ -15,7 +16,7 @@ class Listen extends PureComponent {
             <div id="listen" className="listen-content">
                 <div className="listen-title">Listen</div>
                 {this.state.clicked ?
-                    <div>Music!</div>
+                    <MusicPlayer playlist={'URLs here'}/>
                     :
                     <div>
                         <div>
