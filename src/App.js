@@ -20,6 +20,7 @@ class App extends Component {
     return (
       <div className="App">
         <Title />
+        {/*
         <VizSensor
           partialVisibility
           onChange={(isVisible) => {
@@ -38,6 +39,7 @@ class App extends Component {
         <Booking />
         <About />
         <Footer />
+        */}
       </div>
     );
   }

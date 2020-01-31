@@ -9,18 +9,21 @@ function Title() {
                 <div className="opener-item2">to</div>
             </div>
             <div className="title">
-                <p className="animation4">d</p>
-                <p className="animation6">e</p>
-                <p className="animation1">e</p>
-                <p className="animation2">p</p>
-                <p className="animation9">s</p>
-                <p className="animation5">t</p>
-                <p className="animation3">a</p>
-                <p className="animation8">t</p>
-                <p className="animation7">e</p>
-                <p className="animation10">.</p>
+                <p className="animation4">c</p>
+                <p className="animation6">o</p>
+                <p className="animation1">m</p>
+                <p className="animation2">i</p>
+                <p className="animation9">n</p>
+                <p className="animation5">g</p>
+                <p className="invis">a</p>
+                <p className="animation3">s</p>
+                <p className="animation8">o</p>
+                <p className="animation7">o</p>
+                <p className="animation10">n</p>
             </div>
+            {/*
             <div className="proof">Proof the deepstate exists</div>
+            */}
         </div>
     );
 }
