@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './MusicPlayer.css';
 
 
 
@@ -10,7 +11,7 @@ class MusicPlayer extends Component {
         whiteHousePlay: false,
     }
 
-    anarchyAudio = new Audio(this.props.playlist[0])
+    anarchyAudio = new Audio()
     panicButtonAudio = new Audio(this.props.playlist[1])
     rumbaAudio = new Audio(this.props.playlist[2])
     whiteHouseAudio = new Audio(this.props.playlist[3])
@@ -76,19 +77,39 @@ class MusicPlayer extends Component {
 
     render() {
         return (
-            <div>
-                <ul>
-                    <li> Anarchy:
-                        <button onClick={this.toggleAnarchy}>{this.state.anarchyPlay ? 'Pause' : 'Play'}</button>
+            <div className="music-player-content">
+                <ul className="list-group">
+                    <li className="list-group-item list-group-item-action list-group-item-success d-flex justify-content-between align-items-center">Anarchy:
+                        <span>
+                            <button type="button" className="btn btn-dark" onClick={this.toggleAnarchy}>{this.state.anarchyPlay ? <span className="oi oi-media-pause" title="media pause" aria-hidden="true"></span> : <span className="oi oi-media-play" title="media play" aria-hidden="true"></span> }</button>
+                            <a href="/images/myw3schoolsimage.jpg" download>
+                                Download
+                            </a>
+                        </span>
                     </li>
-                    <li> Panic Button: 
-                    <button onClick={this.togglePanic}>{this.state.panicButtonPlay ? 'Pause' : 'Play'}</button>
+                    <li className="list-group-item list-group-item-action list-group-item-success d-flex justify-content-between align-items-center"> Panic Button:
+                        <span>
+                            <button type="button" className="btn btn-dark" onClick={this.togglePanic}>{this.state.panicButtonPlay ? <span className="oi oi-media-pause" title="media pause" aria-hidden="true"></span> : <span className="oi oi-media-play" title="media play" aria-hidden="true"></span> }</button>
+                            <a href="/images/myw3schoolsimage.jpg" download>
+                                Download
+                            </a>
+                        </span>
                     </li>
-                    <li> Rumba No. 5:
-                    <button onClick={this.toggleRumba}>{this.state.rumbaPlay ? 'Pause' : 'Play'}</button>
+                    <li className="list-group-item list-group-item-action list-group-item-success d-flex justify-content-between align-items-center"> Rumba No. 5:
+                        <span>
+                            <button type="button" className="btn btn-dark" onClick={this.toggleRumba}>{this.state.rumbaPlay ? <span className="oi oi-media-pause" title="media pause" aria-hidden="true"></span> : <span className="oi oi-media-play" title="media play" aria-hidden="true"></span> }</button>
+                            <a href="/images/myw3schoolsimage.jpg" download>
+                                Download
+                            </a>
+                        </span>
                     </li>
-                    <li> White House:
-                    <button onClick={this.toggleWhiteHouse}>{this.state.whiteHousePlay ? 'Pause' : 'Play'}</button>
+                    <li className="list-group-item list-group-item-action list-group-item-success d-flex justify-content-between align-items-center"> White House:
+                        <span>
+                            <button type="button" className="btn btn-dark" onClick={this.toggleWhiteHouse}>{this.state.whiteHousePlay ? <span className="oi oi-media-pause" title="media pause" aria-hidden="true"></span> : <span className="oi oi-media-play" title="media play" aria-hidden="true"></span> }</button>
+                            <a href="/images/myw3schoolsimage.jpg" download>
+                                Download
+                            </a>
+                        </span>
                     </li>
                 </ul>
             </div>

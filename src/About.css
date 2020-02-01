@@ -10,3 +10,9 @@
     padding-top: 60px;
     font-size: 45px;
 }
+
+.about-deepstate {
+    font-size: 18px;
+    margin: 50px;
+    font-family: 'IBM Plex Mono', monospace;
+}

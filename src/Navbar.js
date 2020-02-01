@@ -4,7 +4,7 @@ import './Navbar.css';
 class Navbar extends PureComponent {
     render() {
         return (
-            <div className={this.props.start ? 'invisible' : this.props.display ? 'slide-in-top' : 'slide-out-top'}>
+            <div className={this.props.start ? 'invisible' : this.props.display ? 'slide-in-top navbar' : 'slide-out-top'}>
                 <a href="#listen" className="navbar-item">
                     <div>
                         Listen

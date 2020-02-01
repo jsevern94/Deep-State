@@ -20,7 +20,6 @@ class App extends Component {
     return (
       <div className="App">
         <Title />
-        {/*
         <VizSensor
           partialVisibility
           onChange={(isVisible) => {
@@ -34,12 +33,11 @@ class App extends Component {
         </VizSensor>
         <Navbar display={this.state.navDisplay} start={this.state.start} />
         <Listen />
-        <Events />
+        <Events events={[{month: 'January', day: '25', title: 'Party 1', description: 'The first party', location: 'Showbox, Seattle, Some Address', link: 'https://www.facebook.com'}, {month: 'February', day: '10', title: 'Party 2', description: 'The second party', location: 'Portland, Some Place, Some Address', link: 'https://www.name.com'}]} />
         <Merch />
         <Booking />
         <About />
         <Footer />
-        */}
       </div>
     );
   }

@@ -4,9 +4,35 @@
     flex-direction: column;
     align-content: center;
     text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
-.events-title {
+.upcoming-events-title {
     padding-top: 60px;
     font-size: 45px;
+}
+
+.events-list {
+    margin-top: 7%;
+}
+
+.date-month {
+    color: white;
+    font-size: 18px;
+}
+
+.date-day {
+    font-size: 30px;
+}
+
+.event-details {
+    text-align: left;
+    margin-left: 35px
+}
+
+.event-title {
+    color: white;
+    font-size: 18px;
 }

@@ -1,0 +1,14 @@
+.music-player-content{
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 6%
+}
+
+.list-group {
+    text-align: left;
+}
+
+.btn {
+    margin-right: 25px;
+    border-radius: 1000px;
+}
