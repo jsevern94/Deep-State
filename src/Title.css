@@ -3,6 +3,11 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image: url("/bg1.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    box-shadow: 0 -100px 80px 5px #282c34 inset;
 }
 
 .opener {
@@ -37,6 +42,8 @@
     margin-bottom: 35px;
     display: flex;
     font-size: 120px;
+    text-shadow: 10px 10px 5px #000;
+    color: white;
 }
 
 .title p{

@@ -15,12 +15,16 @@
 }
 
 .events-list {
-    margin-top: 7%;
+    margin-top: 30px;
+}
+
+.single-event {
+    height: 15vh;
 }
 
 .date-month {
     color: white;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .date-day {
@@ -34,5 +38,5 @@
 
 .event-title {
     color: white;
-    font-size: 18px;
+    font-size: 22px;
 }

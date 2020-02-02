@@ -7,7 +7,7 @@ function Events(props) {
             <div className="upcoming-events-title">Upcoming Events</div>
             <div className="events-list">
                 {props.events.map(event => (
-                <div className="row row-inset pt-3 pb-3 border-bottom border-dark ">
+                <div key={event.title} className="row row-inset pt-3 pb-3 border-bottom border-dark single-event">
                     <div className="col-sm-9 d-flex ">
                         <div className="flex-column-centered calendar-item">
                             <div className="date-month">{event.month}</div>
