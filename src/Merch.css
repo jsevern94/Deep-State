@@ -12,10 +12,15 @@
 }
 
 .coming-soon {
-    font-size: 80px;
-    margin-top: 80px;
+    font-size: 130px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 	-webkit-animation: flicker-5 8s linear infinite both;
 	        animation: flicker-5 8s linear infinite both;
+}
+
+.alien-head {
+    font-size: 100px;
 }
 
 /* ----------------------------------------------

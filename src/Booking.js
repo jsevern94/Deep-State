@@ -7,7 +7,7 @@ function Booking() {
             <div className="booking-title">Booking</div>
             <div>
                 <div className="follow">
-                    Contact us for bookings:
+                    Contact deepstate. for bookings:
                         </div>
 
                 <div className="links">

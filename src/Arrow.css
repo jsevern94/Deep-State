@@ -14,7 +14,7 @@
     height: 100px;
     width: 100px;
     fill: currentColor;
-    color: white;
+    color: #189443;
     text-shadow: 2px 2px 6px #000;
     -webkit-animation: bob 5s ease-in-out infinite 6s both;
             animation: bob 5s ease-in-out infinite 6s both;

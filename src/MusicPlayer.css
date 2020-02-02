@@ -1,14 +1,23 @@
 .music-player-content{
     width: 45%;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .list-group {
     text-align: left;
+    font-size: 17px;
 }
 
 .btn {
     margin-right: 25px;
     border-radius: 1000px;
+}
+
+.list-group-item a {
+    color: #037b2d;
+}
+
+.list-group-item a:hover { 
+    color: #053918;
 }
