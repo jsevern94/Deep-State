@@ -11,7 +11,7 @@ class MusicPlayer extends Component {
         whiteHousePlay: false,
     }
 
-    anarchyAudio = new Audio()
+    anarchyAudio = new Audio('./anarchy.mp3')
     panicButtonAudio = new Audio('./panic-button.mp3')
     rumbaAudio = new Audio('./rumba-no-5.mp3')
     whiteHouseAudio = new Audio('./white-house.mp3')
