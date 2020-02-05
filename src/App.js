@@ -33,7 +33,7 @@ class App extends Component {
         </VizSensor>
         <Navbar display={this.state.navDisplay} start={this.state.start} />
         <Listen />
-        <Events events={[{month: 'January', day: '25', title: 'Party 1', description: 'The first party', location: 'Showbox, Seattle, Some Address', link: 'https://www.facebook.com'}, {month: 'February', day: '10', title: 'Party 2', description: 'The second party', location: 'Portland, Some Place, Some Address', link: 'https://www.name.com'}]} />
+        <Events events={[{month: 'February', day: '27', title: 'Prefunk the Figure Show', description: "Anyone attending the Figure event is cordially invited to Joey Rebbe's apartment for some pre-festivity libations.", location: "Joey's Apartment", link: 'https://www.facebook.com/events/829194894208818/'}, {month: 'February', day: '27', title: 'DSTRTION w/ Figure, Carbin and AKOMA', description: 'deepstate. plays at 9:45 as an opening act for Figure, Carbin, and Akoma. Their most prominent gig to date, this show promises to be a legendary night that will be etched in the annals of Seattle lore.', location: 'Trinity Nightclub, Seattle, 107 Occidental Ave', link: 'https://www.facebook.com/events/2476042302722765/'}]} />
         <Merch />
         <Booking />
         <About />
@@ -42,5 +42,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;
