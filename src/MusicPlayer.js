@@ -82,7 +82,7 @@ class MusicPlayer extends Component {
                     <li className="list-group-item list-group-item-action list-group-item-success d-flex justify-content-between align-items-center"> Anarchy:
                         <span>
                             <button type="button" className="btn btn-dark" onClick={this.toggleAnarchy}>{this.state.anarchyPlay ? <span className="oi oi-media-pause" title="media pause" aria-hidden="true"></span> : <span className="oi oi-media-play" title="media play" aria-hidden="true"></span> }</button>
-                            <a href="./anarchy.mp3" download>
+                            <a href="./anarchy.mp4" download>
                                 Download
                             </a>
                         </span>
