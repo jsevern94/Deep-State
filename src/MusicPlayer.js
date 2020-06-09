@@ -11,10 +11,10 @@ class MusicPlayer extends Component {
         whiteHousePlay: false,
     }
 
-    anarchyAudio = new Audio('anarchy.mp3')
-    panicButtonAudio = new Audio('panic-button.mp3')
-    rumbaAudio = new Audio('rumba-no-5.mp3')
-    whiteHouseAudio = new Audio('white-house.mp3')
+    anarchyAudio = new Audio('https://deepstate-assets.s3.us-east-2.amazonaws.com/Anarchy.mp3')
+    panicButtonAudio = new Audio('https://deepstate-assets.s3.us-east-2.amazonaws.com/Panic-Button.mp3')
+    rumbaAudio = new Audio('https://deepstate-assets.s3.us-east-2.amazonaws.com/Rumba-No-5.mp3')
+    whiteHouseAudio = new Audio('https://deepstate-assets.s3.us-east-2.amazonaws.com/White-House.mp3')
 
     componentDidMount() {
         this.anarchyAudio.addEventListener('ended', () => this.setState({ anarchyPlay: false }));
@@ -82,7 +82,7 @@ class MusicPlayer extends Component {
                     <li className="list-group-item list-group-item-action list-group-item-danger d-flex justify-content-between align-items-center"> Anarchy:
                         <span>
                             <button type="button" className="btn btn-dark" onClick={this.toggleAnarchy}>{this.state.anarchyPlay ? <span className="oi oi-media-pause" title="media pause" aria-hidden="true"></span> : <span className="oi oi-media-play" title="media play" aria-hidden="true"></span> }</button>
-                            <a href="anarchy.mp3" download>
+                            <a href="https://deepstate-assets.s3.us-east-2.amazonaws.com/Anarchy.mp3" download>
                                 Download
                             </a>
                         </span>
@@ -90,7 +90,7 @@ class MusicPlayer extends Component {
                     <li className="list-group-item list-group-item-action list-group-item-danger d-flex justify-content-between align-items-center"> Panic Button:
                         <span>
                             <button type="button" className="btn btn-dark" onClick={this.togglePanic}>{this.state.panicButtonPlay ? <span className="oi oi-media-pause" title="media pause" aria-hidden="true"></span> : <span className="oi oi-media-play" title="media play" aria-hidden="true"></span> }</button>
-                            <a href="panic-button.mp3" download>
+                            <a href="https://deepstate-assets.s3.us-east-2.amazonaws.com/Panic-Button.mp3" download>
                                 Download
                             </a>
                         </span>
@@ -98,7 +98,7 @@ class MusicPlayer extends Component {
                     <li className="list-group-item list-group-item-action list-group-item-danger d-flex justify-content-between align-items-center"> Rumba No. 5:
                         <span>
                             <button type="button" className="btn btn-dark" onClick={this.toggleRumba}>{this.state.rumbaPlay ? <span className="oi oi-media-pause" title="media pause" aria-hidden="true"></span> : <span className="oi oi-media-play" title="media play" aria-hidden="true"></span> }</button>
-                            <a href="rumba-no-5.mp3" download>
+                            <a href="https://deepstate-assets.s3.us-east-2.amazonaws.com/Rumba-No-5.mp3" download>
                                 Download
                             </a>
                         </span>
@@ -106,7 +106,7 @@ class MusicPlayer extends Component {
                     <li className="list-group-item list-group-item-action list-group-item-danger d-flex justify-content-between align-items-center"> White House:
                         <span>
                             <button type="button" className="btn btn-dark" onClick={this.toggleWhiteHouse}>{this.state.whiteHousePlay ? <span className="oi oi-media-pause" title="media pause" aria-hidden="true"></span> : <span className="oi oi-media-play" title="media play" aria-hidden="true"></span> }</button>
-                            <a href="white-house.mp3" download>
+                            <a href="https://deepstate-assets.s3.us-east-2.amazonaws.com/White-House.mp3" download>
                                 Download
                             </a>
                         </span>
