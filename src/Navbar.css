@@ -36,12 +36,13 @@
     margin: auto;
     text-decoration: none;
 }
-.navbar a {
-    color: #3df07b;
+.navbar a {        
+    color: #fe0409;
+    font-weight: bolder;
 }
 
 .navbar a:hover { 
-    color: #bff7d2;
+    color: #eb464f;
 }
 
 /**

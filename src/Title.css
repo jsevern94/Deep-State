@@ -3,11 +3,11 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url("/bg1.jpg");
+    background-image: url("/NS_Deepstate_Banner_Facebook.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
-    box-shadow: 0 -100px 80px 5px #282c34 inset;
+    box-shadow: 0 -100px 80px 5px #000326 inset;
 }
 
 .opener {
@@ -43,12 +43,17 @@
     display: flex;
     font-size: 120px;
     text-shadow: 10px 10px 5px #000;
-    color: white;
+    color: #e4ddd1;
 }
 
 .title p{
     margin: 0 auto;
     text-align: center;
+}
+
+.globe {
+  margin: 0 auto;
+  width: 28%;
 }
 
 .proof {

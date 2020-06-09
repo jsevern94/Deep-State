@@ -4,7 +4,7 @@ import './Title.css';
 function Title() {
     return (
         <div className="banner">
-            <div className="opener">
+            {/* <div className="opener">
                 <div className="opener-item1">Welcome</div>
                 <div className="opener-item2">to</div>
             </div>
@@ -19,7 +19,8 @@ function Title() {
                 <p className="animation8">t</p>
                 <p className="animation7">e</p>
                 <p className="animation10">.</p>
-            </div>
+            </div> */}
+            {/* <img class="globe" src="DeepstateGlobe-02.png" alt=""></img> */}
             {/*}
             <div className="proof">Proof the deepstate exists</div>
     */}
