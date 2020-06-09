@@ -79,7 +79,7 @@ class MusicPlayer extends Component {
         return (
             <div className="music-player-content">
                 <ul className="list-group">
-                    <li className="list-group-item list-group-item-action list-group-item-success d-flex justify-content-between align-items-center"> Anarchy:
+                    <li className="list-group-item list-group-item-action list-group-item-danger d-flex justify-content-between align-items-center"> Anarchy:
                         <span>
                             <button type="button" className="btn btn-dark" onClick={this.toggleAnarchy}>{this.state.anarchyPlay ? <span className="oi oi-media-pause" title="media pause" aria-hidden="true"></span> : <span className="oi oi-media-play" title="media play" aria-hidden="true"></span> }</button>
                             <a href="anarchy.mp3" download>
@@ -87,7 +87,7 @@ class MusicPlayer extends Component {
                             </a>
                         </span>
                     </li>
-                    <li className="list-group-item list-group-item-action list-group-item-success d-flex justify-content-between align-items-center"> Panic Button:
+                    <li className="list-group-item list-group-item-action list-group-item-danger d-flex justify-content-between align-items-center"> Panic Button:
                         <span>
                             <button type="button" className="btn btn-dark" onClick={this.togglePanic}>{this.state.panicButtonPlay ? <span className="oi oi-media-pause" title="media pause" aria-hidden="true"></span> : <span className="oi oi-media-play" title="media play" aria-hidden="true"></span> }</button>
                             <a href="panic-button.mp3" download>
@@ -95,7 +95,7 @@ class MusicPlayer extends Component {
                             </a>
                         </span>
                     </li>
-                    <li className="list-group-item list-group-item-action list-group-item-success d-flex justify-content-between align-items-center"> Rumba No. 5:
+                    <li className="list-group-item list-group-item-action list-group-item-danger d-flex justify-content-between align-items-center"> Rumba No. 5:
                         <span>
                             <button type="button" className="btn btn-dark" onClick={this.toggleRumba}>{this.state.rumbaPlay ? <span className="oi oi-media-pause" title="media pause" aria-hidden="true"></span> : <span className="oi oi-media-play" title="media play" aria-hidden="true"></span> }</button>
                             <a href="rumba-no-5.mp3" download>
@@ -103,7 +103,7 @@ class MusicPlayer extends Component {
                             </a>
                         </span>
                     </li>
-                    <li className="list-group-item list-group-item-action list-group-item-success d-flex justify-content-between align-items-center"> White House:
+                    <li className="list-group-item list-group-item-action list-group-item-danger d-flex justify-content-between align-items-center"> White House:
                         <span>
                             <button type="button" className="btn btn-dark" onClick={this.toggleWhiteHouse}>{this.state.whiteHousePlay ? <span className="oi oi-media-pause" title="media pause" aria-hidden="true"></span> : <span className="oi oi-media-play" title="media play" aria-hidden="true"></span> }</button>
                             <a href="white-house.mp3" download>
