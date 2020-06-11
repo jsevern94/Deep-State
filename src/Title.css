@@ -36,12 +36,10 @@
   
 .title {
     pointer-events: none;
-    width: 60vw;
+    width: 10vw;
     margin: auto;
-    margin-top: 0;
-    margin-bottom: 35px;
     display: flex;
-    font-size: 120px;
+    font-size: 20px;
     text-shadow: 10px 10px 5px #000;
     color: #e4ddd1;
 }

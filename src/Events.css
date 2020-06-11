@@ -2,20 +2,21 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-content: center;
     text-align: center;
     width: 60%;
     margin: 0 auto;
+    margin-top: -100px;
     font-family: 'IBM Plex Mono', monospace;
 }
 
 .upcoming-events-title {
-    padding-top: 60px;
     font-size: 45px;
 }
 
 .events-list {
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
 .single-event {

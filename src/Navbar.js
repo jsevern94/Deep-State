@@ -17,11 +17,20 @@ class Navbar extends PureComponent {
                 </div>
                 </a>
                 <div className="navbar-item">|</div>
-                <a href="#merch" className="navbar-item">
-                    <div>
-                        Merch
+                <div className="navbar-item">
+                    <div className="title">
+                        <p className="animation4">d</p>
+                        <p className="animation6">e</p>
+                        <p className="animation1">e</p>
+                        <p className="animation2">p</p>
+                        <p className="animation9">s</p>
+                        <p className="animation5">t</p>
+                        <p className="animation3">a</p>
+                        <p className="animation8">t</p>
+                        <p className="animation7">e</p>
+                        <p className="animation10">.</p>
+                    </div>
                 </div>
-                </a>
                 <div className="navbar-item">|</div>
                 <a href="#booking" className="navbar-item">
                     <div>

@@ -2,12 +2,14 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-content: center;
     text-align: center;
+    margin-top: -100px;
+    margin-bottom: 100px;
 }
 
 .booking-title {
-    padding-top: 60px;
     font-size: 45px;
 }
 

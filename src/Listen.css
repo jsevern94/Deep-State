@@ -2,12 +2,13 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-content: center;
     text-align: center;
+    margin-top: -80px;
 }
 
 .listen-title {
-    padding-top: 60px;
     font-size: 45px;
 }
 
