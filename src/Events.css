@@ -7,11 +7,12 @@
     text-align: center;
     width: 60%;
     margin: 0 auto;
-    margin-top: -100px;
+
     font-family: 'IBM Plex Mono', monospace;
 }
 
 .upcoming-events-title {
+    margin-top: -350px;
     font-size: 45px;
 }
 
@@ -20,7 +21,7 @@
 }
 
 .single-event {
-    height: 17vh;
+    height: 13vh;
 }
 
 .date-month {

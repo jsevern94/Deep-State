@@ -49,11 +49,6 @@
     text-align: center;
 }
 
-.globe {
-  margin: 0 auto;
-  width: 28%;
-}
-
 .proof {
     font-size: 25px;
     -webkit-animation: shoot-across 10s linear infinite 2s both;

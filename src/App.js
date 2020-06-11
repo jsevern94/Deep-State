@@ -33,8 +33,23 @@ class App extends Component {
         </VizSensor>
         <Navbar display={this.state.navDisplay} start={this.state.start} />
         <Listen />
-        <Events events={[{month: 'February', day: '27', title: 'Prefunk the Figure Show', description: "Anyone attending the Figure event is cordially invited to Joey Rebbe's apartment for some pre-festivity libations.", location: "Joey's Apartment", link: 'https://www.facebook.com/events/829194894208818/'}, {month: 'February', day: '27', title: 'DSTRTION w/ Figure, Carbin and AKOMA', description: 'deepstate. plays at 9:45 as an opening act for Figure, Carbin, and Akoma. Their most prominent gig to date, this show promises to be a legendary night that will be etched in the annals of Seattle lore.', location: 'Trinity Nightclub, Seattle, 107 Occidental Ave', link: 'https://www.facebook.com/events/2476042302722765/'}]} />
+        <Events events={[{month: 'Every', day: 'Monday', title: 'Twitch Stream', description: "Join deepstate. on Twitch every Monday from 7-9", location: 'twitch.tv/deepstatedj', link: 'https://www.twitch.tv/deepstatedj', button: "Watch"}]} />
         {/* <Merch /> */}
+        <div class="globe-container">
+                <img class="globe" src="DeepstateGlobe-02.png" alt=""></img>
+                <img class="globe" src="DeepstateGlobe-02.png" alt=""></img>
+                <img class="globe" src="DeepstateGlobe-02.png" alt=""></img>
+                <img class="globe" src="DeepstateGlobe-02.png" alt=""></img>
+                <img class="globe" src="DeepstateGlobe-02.png" alt=""></img>
+                <img class="globe" src="DeepstateGlobe-02.png" alt=""></img>
+                <img class="globe" src="DeepstateGlobe-02.png" alt=""></img>
+                <img class="globe" src="DeepstateGlobe-02.png" alt=""></img>
+                <img class="globe" src="DeepstateGlobe-02.png" alt=""></img>
+                <img class="globe" src="DeepstateGlobe-02.png" alt=""></img>
+                <img class="globe" src="DeepstateGlobe-02.png" alt=""></img>
+                <img class="globe" src="DeepstateGlobe-02.png" alt=""></img>
+                <img class="globe" src="DeepstateGlobe-02.png" alt=""></img>
+        </div>
         <Booking />
         <VizSensor
           partialVisibility

@@ -11,3 +11,16 @@ html{
   text-shadow: 2px 2px 6px #000;
   overflow-x: hidden;
 }
+
+.globe-container {
+  margin-top: -190px;
+  margin-left: -50vw;
+  width: 200vw;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.globe {
+  margin: 0 auto;
+  width: 15vw;
+}
